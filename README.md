@@ -11,3 +11,10 @@ $(".class").each(function( index ) {
 ```sql
 SELECT b_rid,COUNT(*) AS total FROM bc_rate GROUP BY b_rid ORDER BY total DESC LIMIT 1
 ```
+
+**Поставить курсоры всем выбранным строкам**
+
+```
+ctrl+A - выделяем все строки
+ctrl+shift+L - ставим выделенным строкам курсоры
+```
