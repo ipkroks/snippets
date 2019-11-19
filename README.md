@@ -18,3 +18,15 @@ SELECT b_rid,COUNT(*) AS total FROM bc_rate GROUP BY b_rid ORDER BY total DESC L
 ctrl+A - выделяем все строки
 ctrl+shift+L - ставим выделенным строкам курсоры
 ```
+
+**Путь до hosts в Linux**
+
+```
+/etc/hosts
+```
+
+**Путь до httpd-vhosts.conf в XAMPP (в Linux)**
+
+```
+/opt/lampp/etc/extra/httpd-vhosts.conf
+```
